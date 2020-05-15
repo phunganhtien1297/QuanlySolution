@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quanlysieuthi", "quanlysieuthi\quanlysieuthi.csproj", "{75461941-04A3-498D-88D3-1E749ECF9BE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quanlysieuthi.WebApp", "quanlysieuthi\quanlysieuthi.WebApp.csproj", "{75461941-04A3-498D-88D3-1E749ECF9BE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quanly.data", "quanly.data\quanly.data.csproj", "{466F8BE7-CB60-49FE-BB36-6D61C1BE3190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quanly.Application", "quanly.Application\quanly.Application.csproj", "{40F57D26-7B2E-4AED-8D08-8D524DDEB333}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{75461941-04A3-498D-88D3-1E749ECF9BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75461941-04A3-498D-88D3-1E749ECF9BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75461941-04A3-498D-88D3-1E749ECF9BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466F8BE7-CB60-49FE-BB36-6D61C1BE3190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466F8BE7-CB60-49FE-BB36-6D61C1BE3190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466F8BE7-CB60-49FE-BB36-6D61C1BE3190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466F8BE7-CB60-49FE-BB36-6D61C1BE3190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F57D26-7B2E-4AED-8D08-8D524DDEB333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F57D26-7B2E-4AED-8D08-8D524DDEB333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F57D26-7B2E-4AED-8D08-8D524DDEB333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F57D26-7B2E-4AED-8D08-8D524DDEB333}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
